@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTRATO 100</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #121212; /* Color de fondo idéntico al neón */
+        }
+        
+        /* Contenedor que bloquea el desbordamiento y oculta la barra */
+        .contenedor-seguro {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* Oculta la barra de aviso de abuso levantando el iframe exactamente 48px */
+        iframe {
+            position: absolute;
+            top: -48px; 
+            left: 0;
+            width: 100%;
+            height: calc(100% + 48px); 
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor-seguro">
+        <iframe src="https://script.google.com/macros/s/AKfycbxMj_VMJt6yipGX41P9dt2dVy352_XAYTP02cMtafQmcPCB9VfmE0RFFSg-sJTzzXuz/exec></iframe>
+    </div>
+
+</body>
+</html>
